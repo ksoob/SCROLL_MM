@@ -1,0 +1,309 @@
+<idoctype html>
+<head>
+	<meta charset = "utf-8">
+	<link href='normalize.css' rel="stylesheet">
+	<title> PRIVATE GARDEN </title>
+	<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+	<style>
+		html { font-family: 'Spoqa Han Sans'; font-weight: 200;}
+		.top{width:100%;height:50px;}
+		#top1{width:100%;height:50px;background: #416b52;}
+		#top2{width:100%;height:50px;background: white;}
+		.section{height:600px;width:100%;position: relative}
+		.bigbox{height:50px;background:none;  margin:30 auto;border:60px solid white;}
+		.cell{width:14%; height: 50px; background: #416b52;float:left;color:white;font-size: 0.5em;font-weight: 400;text-align: center; letter-spacing: 3px;line-height: 2;padding-top:35px; padding-bottom:20px;}
+			
+		header{height:300px; width:200px;background: #416b52;width:100%; transition: all 0.3s}
+		header #logo{width:200;text-align: center;height:44px;line-height: 44px;font-size: 1.5em;font-weight: 700; padding-top:75px; position:relative;left:calc(50% - 100px);transition: all 0.3s;color:white;}
+		header #main{width:90%;height:10px;position:relative;left:calc(50% - 45%);padding-top:1px;transition: all 0.3s;background: none;}
+		header #menu{width:700px;height:50px;position:relative;left:calc(50% - 350px);top:680px;transition: all 0.3s;background: white;}
+		header li{width:10px;height:10px;position:relative;left:calc(50% - 150px);color:black;background: white;float:left;border-radius: 50px;text-align: center;line-height:60px;color:black;font-size: 1.5em;font-weight: 200;margin-left: 20px;margin-right:20px;margin-top:20px;}
+		h1{color:#416b52;font-size: 1.0em;font-weight: 400;text-align: center;padding-left: 100px;padding-right: 100px;letter-spacing: 5px;padding-top:100px; 
+			background: none;}
+		h2{color:white;font-size: 0.5em;font-weight: 400;text-align: center;padding-top:20px; line-height: 2;padding-left: 10px;padding-right: 10px; padding-bottom:20px; letter-spacing: 3px;}
+		h3{color:white;font-size: 0.5em;font-weight: 200;text-align: center;padding-top:20px; line-height: 2;padding-left: 10px;padding-right: 10px; padding-bottom:20px; letter-spacing: 3px;}
+		h4{color:white;font-size: 0.5em;font-weight: 400;text-align: center;padding-top:20px; line-height: 1.5;padding-left: 10px;padding-right: 10px; padding-bottom:1px; letter-spacing: 3px;}
+		h5{color:white;font-size: 1.0em;font-weight: 400; letter-spacing: 3px;line-height:0;}
+		form{color:white;font-size: 1.5em;font-weight: 400;text-align: center;padding-top:150px; line-height: 2;padding-left: 100px;padding-right: 100px;letter-spacing: 5px;}
+		a, a:hover, a:visited, a:active{text-decoration: none;color:white;}
+		a.second, a.second:hover, a.second:visited {  color:purple; }
+		#email{height:50px;width:400px;font-size: 0.5em;text-align: center;line-height: 2;margin-bottom: : 10px; }
+		#agree{font-size: 0.5em;text-align: center;line-height: 0;margin-bottom: : 0px; }
+		
+		#action {font-size: 0.5em;line-height: 2;margin-bottom: 10px; margin-top: 1px;stroke:none; }
+		#sectionA{ background: white; transition: all 1s; }
+		#sectionB{ background: white; transition: all 1s; }
+		#sectionC{ background: white; transition: all 1s; }
+		#sectionD{ background: white; transition: all 1s; }
+		#sectionE{ background: white; transition: all 1s; }
+        #sectionF{ background: white; transition: all 1s; }
+        #sectionG{ background:#416b52; transition: all 1s; }
+        #img1{width:240px;position:relative;left:calc(50% - 115px);margin-bottom: -170px;}
+        #img2{width:300px;position:relative;left:calc(50% - 150px);padding-top:-900px;transition:all 1s;}
+        #img3{width:500px;position:relative;left:calc(50% - 250px);padding-top:-900px;transition:all 1s;}
+		
+		#titleA{transition:all 1s;}
+		#titleB{transition: all 1s;}
+		#titleC{transition: all 1s;}
+		#titleD{transition: all 1s;}
+		#titleE{transition: all 1s;}
+		#titleF{transition: all 1s;}
+	</style>
+</head>
+<body>
+<div class="top" id="top1">
+	
+</div>
+<header id="header">
+	<img id="img1" src="handw3.png">
+	<div id="logo">
+		<a id="main1" href="index.html">PRIVATE GARDEN</div>
+
+	<div id="main">
+		<ul>
+			
+			<h5 style="padding-left: 0px; margin-left: 0px;text-align: left;"><a id="main1" href="scroll_1.html">ABOUT</a></h2>
+			
+			<h5 style="padding-right: 0px;margin-right:0px;text-align:right;"><a id="main2" href="scroll_2.html">SHOP</a></h2>
+			
+			
+			
+	    </ul>
+	</div>
+	<div id="menu">
+		<ul>
+			<li id="menuA"></li>
+			<li id="menuB"></li>
+			<li id="menuC"></li>
+			<li id="menuD"></li>
+			<li id="menuE"></li>
+			<li id="menuF"></li>
+		</ul>
+	</div>
+</header>
+<div class="top" id="top2">
+	
+</div>
+<div class="section" id="sectionA">
+
+	<h1 id="titleA">< BRAND NAMING ></h1>
+	<img id="img2" src="brandname_01.png">
+	<h3 style="color:green; font-weight:400;">
+	명사 "사유 정원" <p>
+	브랜드 핵심가치인 나만의 정원 의미를 드러냅니다.
+	</h3>
+	
+</div>
+
+<div class="section" id="sectionB">
+	
+	<h1 id="titleB">< SYMBOL CONCEPT ></h1>
+	<br><br><br><br>
+	<img id="img3" src="symbol_01.png">
+	<br><br>
+	<h3 style="color:green; font-weight:400;">자연에서 볼 수 있는 요소를 통해 브랜드의 건강한 이미지를 보여줍니다.
+	</h3>
+
+</div>
+
+<div class="section" id="sectionC">
+
+	<h1 id="titleC">< BRAND SLOGAN ></h1>
+	<img id="img3" src="brand-slogan_01.png">
+	<h3 style="color:green; font-weight:400;">
+		당신의 정원을 만들어보세요 <p>
+		자신만의 정원을 가지라는 <p>
+		브랜드 목표를 드러냅니다.</h3>
+
+</div>
+
+<div class="section" id="sectionD">
+
+	<h1 id="titleD">< DESIGN VALUE ></h1>
+	<div class="bigbox">
+		<a class="cell">SPECIALIZED<br>전문적</a>
+		<a class="cell">|</a>
+	 	<a class="cell">PERSONALIZED<br>개인화</a>
+	 	<a class="cell">|</a>
+	 	<a class="cell">RELAXED<br>편안한</a>
+	 	<a class="cell">|</a>
+	 	<a class="cell">HEALTHY<br>건강한</a>
+	</div>
+	</h3>
+	<br><br>
+	<h3 id="titleC" style="color:green; font-weight:400;">
+	“ 건강하고 편안한 나만의 선인장 정원을 만드는 곳 ”
+	</h3>
+
+</div>
+
+<div class="section" id="sectionE">
+
+	<h1 id="titleE">< TYPEFACE ></h1>
+	<h3 id="titleC" style="color:#416b52; font-size:1.0em; font-weight:400;">
+	<br><br>
+	영문 서체는 선인장 심볼의 얇고 길쭉한 느낌, 이미지을 가지고 있는 서체를 사용합니다.<p>
+	한글 서체는 영문 서체와의 균형을 위해 자간을 -10으로 합니다.<p>
+	</h3>
+	<br><br>
+	<h3 id="titleC" style="color:green; font-weight:400;">
+	영문 제목 서체 Avenir Next Condensed BOLD<p>
+	영문 본문 서체 Avenir Next Condensed Demi Bold<p>
+	한글 서체 Noto Sans CJK KR Medium
+	</h3>
+
+</div>
+
+<div class="section" id="sectionF">
+
+	<h1 id="titleF">< COLOR ></h1>
+	<div class="bigbox">
+	<a class="cell">PANTONE 627 CP </a>
+	<a class="cell">|</a>
+	<a class="cell">RGB 36 / 68 / 51 </a>
+	<a class="cell">|</a>
+	<a class="cell">CMYK 80 / 48 / 76 / 51 </a>
+	<a class="cell">|</a>
+	<a class="cell">HEX #244433 </a>
+	</div>
+	</h3>
+</div>
+<div class="section" id="sectionG">	
+	<form>
+  	SIGN UP
+  	<br>
+  	<h2>
+  	이메일로만 공개하는 PRIVATE GARDEN 소식을 지금 미리 신청하세요!
+    </h2>
+    <input type="text" id="email" placeholder="EMAIL ADDRESS">
+    </form>
+    <h3>
+    <input type="checkbox" id="agree">
+    개인정보 수집 및 이용방침에 동의합니다.
+    </h3>
+    <h2 style="font-size: 0.7em;font-weight: 400;"><button id="action">OK</button></h2>
+    <br><br><br>
+    <h4>COPYRIGHT Ⓒ PRIVATE GARDEN 
+    </h4><h4>
+    ALL RIGHTS RESERVED / PUBLISHED BY SOO
+    </h4>
+</div>
+<script>
+	window.onscroll = function(){
+		console.log(document.body.scrollTop);
+		var scrollH = document.body.scrollTop;
+		if(scrollH > 10){
+			header.style.height = "100px";
+			header.style.position = "fixed";
+			header.style.top = "0px";
+			header.style.zIndex = "9999"
+			header.style.background = "#416b52";
+			
+			main.style.height = "0px";
+			main.style.paddingTop = "-10px";
+			main.style.background = "none"
+			main.style.top = "-13px";
+
+			menu.style.top = "calc(50% + 650px)";
+			logo.style.width = "400px";
+			logo.style.left = "calc(50% - 200px)"
+			logo.style.top = "10px";
+			logo.style.paddingTop = "20px";
+			
+			
+			
+		}else{
+			header.style.height = "300px";
+			header.style.position = "relative";
+			header.style.top = "0px";
+			header.style.background = "#416b52";
+			
+			main.style.height = "10px";
+			main.style.paddingTop = "1px";
+			main.style.background = "none"
+			main.style.top = "0px";
+
+			menu.style.top = "1000px";
+			logo.style.width = "200px";
+			logo.style.left = "calc(50% - 100px)"
+			logo.style.top = "0px";
+			logo.style.paddingTop = "75px";
+			
+			
+		}
+
+		if(scrollH > 50){
+			img2.style.paddingTop = "-900px";
+			
+			menuA.style.background = "#416b52";
+			menuA.style.color = "white";
+		}else{
+			img2.style.paddingTop = "-900px";
+			
+			menuA.style.background = "white";
+			menuA.style.color = "black";
+			
+			
+		}
+
+		if(scrollH > 460){
+			menuB.style.background = "#416b52";
+			menuB.style.color = "white";
+		}else{
+			menuB.style.background = "white";
+			menuB.style.color = "black";
+		}
+
+		
+
+		if(scrollH > 950){
+
+			menuC.style.background = "#416b52";
+			menuC.style.color = "white";
+		}else{
+			
+			menuC.style.background = "white";
+			menuC.style.color = "black";
+		}
+
+		if(scrollH > 1650){
+
+			menuD.style.background = "#416b52";
+			menuD.style.color = "white";
+		}else{
+
+			menuD.style.background = "white";
+			menuD.style.color = "black";
+		}
+
+		if(scrollH > 2200){
+			
+			menuE.style.background = "#416b52";
+			menuE.style.color = "white";
+		}else{
+			
+			menuE.style.background = "white";
+			menuE.style.color = "black";
+		}
+
+		if(scrollH > 2700){
+		    
+			menuF.style.background = "#416b52";
+			menuF.style.color = "white";
+		}else{
+		    
+			menuF.style.background = "white";
+			menuF.style.color = "black";
+		}
+
+		if(scrollH > 2830){
+		    menu.style.top = "1000px";
+		}else{
+		    menu.style.top = "calc(50% + 650px)";
+		}
+		
+
+
+	}
+</script>
+</body>
