@@ -28,7 +28,7 @@
 		#sectionA{ background: #416b52; transition: all 1s; }
 		#sectionB{ background: white; transition: all 1s; }
 		#sectionC{ background: url('cactus1.jpg');background-size:100% auto;background-position: 0px -120px; }
-		#sectionD{ background: green; transition: all 1s; }
+		#sectionD{ background: url('back_01.jpg');background-size:100% auto;background-position: 0px -120px; }
 		#sectionE{ background: white; transition: all 1s; }
         #sectionF{ background: white; transition: all 1s; }
         #sectionG{ background:#416b52; transition: all 1s; }
@@ -117,6 +117,18 @@
     </h4>
 </div>
 <script>
+
+	img2.onmouseover = function(){
+			img2.style.width = "350px";
+			img2.style.left = "calc(50% - 175px)";
+			img2.style.paddingTop = "50px";
+		}
+	img2.onmouseout = function(){
+			img2.style.width = "300px";
+			img2.style.left = "calc(50% - 150px)";
+			img2.style.paddingTop = "75px";
+	}
+
 	window.onscroll = function(){
 		console.log(document.body.scrollTop);
 		var scrollH = document.body.scrollTop;
@@ -206,7 +218,7 @@
 
 		if(scrollH > 1650){
 			titleD.style.paddingTop = "300px"
-			sectionD.style.background = "#416b52";
+			sectionD.style.background = "url('back_01.jpg')";
 			titleD.style.color = "white";
 			titleD.style.fontWeight = "500";
 			menuD.style.background = "#416b52";
@@ -248,7 +260,7 @@
 		    menu.style.top = "calc(50% + 650px)";
 		}
 		
-
+		
 
 	}
 </script>
